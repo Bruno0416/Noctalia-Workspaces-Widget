@@ -23,7 +23,7 @@ Rectangle {
     spacing: Style.marginS    
   }
 
-  // Sizing según documentación
+  
   implicitWidth:  isVertical
                   ? Style.capsuleHeight
                   : content.implicitWidth + Style.marginM * 2
