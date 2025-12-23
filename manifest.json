@@ -1,11 +1,12 @@
 {
-    "id": "workspaces-pill",
-    "name": "Workspaces Pill",
+    "id": "workspace-pill",
+    "name": "Workspace Pill",
     "version": "1.0.0",
     "author": "Bruno Valladares",
-    "description": "Workspaces minimal widget that shows all the aviable wokrspaces of each monitor.",
+    "description": "Workspaces widget that shows all the aviable wokrspaces of each monitor.",
     "entryPoints": {
-        "barWidget": "BarWidget.qml"
+        "barWidget": "BarWidget.qml",
+        "settings": "Settings.qml"
     },
     "metadata": {
         "defaultSettings": {
