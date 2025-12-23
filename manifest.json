@@ -2,11 +2,17 @@
     "id": "workspace-pill",
     "name": "Workspace Pill",
     "version": "1.0.0",
+    "minNoctaliaVersion": "3.6.0",
     "author": "Bruno Valladares",
+    "license": "MIT",
+    "repository": "https://github.com/Bruno0416/noctalia-plugins.git",
     "description": "Workspaces widget that shows all the aviable wokrspaces of each monitor.",
     "entryPoints": {
         "barWidget": "BarWidget.qml",
         "settings": "Settings.qml"
+    },
+    "dependencies": {
+        "plugins": []
     },
     "metadata": {
         "defaultSettings": {
